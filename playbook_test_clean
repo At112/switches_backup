@@ -12,7 +12,7 @@
        backup: yes
        authorize: yes
        backup_options:
-         dir_path: "/mnt/d/switches_backup_locally"
+         dir_path: "./backup/"
          filename: "{{inventory_hostname}}_{{ansible_ssh_host}}_{{ lookup('pipe', 'date +%Y-%m-%d-%H%M') }}"
      register: config_output
      ignore_errors: yes
