@@ -2,7 +2,6 @@
 - name: Network Switches
   connection : local
   gather_facts: yes
-  look_for_keys: no
   hosts: all
   vars_files:
            vault_switch_secret.yaml
