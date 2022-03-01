@@ -4,7 +4,7 @@ XXRDN-TSWI01 ansible_host=10.127.255.4
 [all:vars]
 ansible_python_interpreter=/usr/bin/python2
 ansible_ssh_pass="{{ switch_ssh_pass }}"
-ansible_vault_password_file=/etc/ansible/vault_pass
+#ansible_vault_password_file=/etc/ansible/vault_pass
 ansible_user=citadmin
 
 # This is the default ansible 'hosts' file.
