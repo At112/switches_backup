@@ -3,8 +3,8 @@
   connection : local
   gather_facts: yes
   hosts: all
-  vars_files:
-           vault_switch_secret.yaml
+#  vars_files:
+#           vault_switch_secret.yaml
   tasks:
 
   -  name: PULL CONFIG - DELL OS6 CONFIG
