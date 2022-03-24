@@ -1,6 +1,6 @@
 ---
 - name: Network Switches
-  #connection : local
+  connection : local
   gather_facts: yes
   hosts: all
   vars_files:
