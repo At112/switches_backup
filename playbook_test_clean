@@ -17,3 +17,12 @@
      register: config_output
      ignore_errors: yes
      
+  - name: Show Version
+    dellos6_command:
+       commands: show version
+    register: version_output
+
+  - name: Push firmware
+    dellos6_command:
+       commands: show version
+    register: version_output
