@@ -3,7 +3,7 @@ XXRDN-TSWI01 ansible_host=10.127.255.4
 #CRIBN-PSWI02 ansible_host=10.51.0.8
 [all:vars]
 ansible_python_interpreter=/usr/bin/python2.7
-ansible_ssh_pass="{{ switch_ssh_pass }}"
+#ansible_ssh_pass="{{ switch_ssh_pass }}"
 #ansible_vault_password_file=/etc/ansible/vault_pass
 ansible_user=citadmin
 
